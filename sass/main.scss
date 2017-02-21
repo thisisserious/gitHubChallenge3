@@ -3,9 +3,11 @@
 $mint-green: #c9fce4;
 $icon-square-length: 300px;
 $standard-border: 5px solid black;
+$main-font: Roboto, sans-serif;
+$second-font: 'Pacifico', cursive;
 
 h1 {
-    font-family: Roboto, sans-serif;
+    font: 32px $main-font;
     text-align: center;
 }
 
@@ -28,7 +30,7 @@ nav {
 }
 
 .banner {
-    font-family: 'Pacifico', cursive;
+    font-family: $second-font;
     height: 400px;
     background-image: url("kittehs.jpg");
     border : {
@@ -54,7 +56,7 @@ nav {
 
 .container {
     text-align: center;
-    font-family: 'Pacifico', cursive;
+    font-family: $second-font;
 
     .icon {
         display: inline-block;

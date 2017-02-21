@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico|Roboto);
 h1 {
-  font-family: Roboto, sans-serif;
+  font: 32px Roboto, sans-serif;
   text-align: center; }
 
 nav ul {
@@ -15,7 +15,7 @@ nav a {
   text-decoration: none; }
 
 .banner {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   height: 400px;
   background-image: url("kittehs.jpg");
   border-top: 5px solid black;
@@ -35,7 +35,7 @@ nav a {
 
 .container {
   text-align: center;
-  font-family: 'Pacifico', cursive; }
+  font-family: "Pacifico", cursive; }
   .container .icon {
     display: inline-block;
     margin: 2%;
