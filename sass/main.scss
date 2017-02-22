@@ -32,6 +32,7 @@ nav {
 
   a {
     display: block;
+    font-family: $main-font;
     padding: 6px 12px;
     text-decoration: none;
   }
@@ -62,6 +63,10 @@ nav {
     }
 }
 
+.title {
+  top: 170px;
+  position: relative;
+}
 .container {
     text-align: center;
     font-family: $second-font;
