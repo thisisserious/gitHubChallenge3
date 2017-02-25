@@ -23,6 +23,10 @@ nav a {
   padding: 6px 12px;
   text-decoration: none; }
 
+.search-icon {
+  fill: #c9fce4;
+  stroke: black; }
+
 .banner {
   font-family: "Pacifico", cursive;
   height: 400px;
