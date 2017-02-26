@@ -6,7 +6,7 @@ ol {
   margin: 0;
   padding: 0; }
 
-h1 {
+h1, .message, .success, .error, .warning {
   font: 32px Roboto, sans-serif;
   text-align: center; }
 
@@ -70,5 +70,20 @@ nav a {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   border-radius: 10px; }
+
+.message, .success, .error, .warning {
+  border: 5px solid black;
+  padding: 10px;
+  color: #333;
+  margin: 10px; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red; }
+
+.warning {
+  border-color: orange; }
 
 /*# sourceMappingURL=main.css.map */

@@ -90,6 +90,7 @@ nav {
     }
 }
 
+// sass mixins on vendor prefixes [webkit = Chrome, Safari, newer versions of Opera]
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -99,4 +100,28 @@ nav {
 
 .slogan, .icon {
   @include border-radius(10px);
+}
+
+// sass @extend to keep it DRY
+.message {
+  @extend h1;
+  border: $standard-border;
+  padding: 10px;
+  color: #333;
+  margin: 10px;
+}
+
+.success {
+  @extend .message;
+  border-color: green;
+}
+
+.error {
+  @extend .message;
+  border-color: red;
+}
+
+.warning {
+  @extend .message;
+  border-color: orange;
 }
